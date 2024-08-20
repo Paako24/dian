@@ -17,6 +17,10 @@
   object-fit: cover;
 }
 
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
 .slider {
   overflow-x: scroll;
   white-space: nowrap;
